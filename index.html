@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script defer src="portfolio.js"></script>
+    <script defer src="https://kit.fontawesome.com/fe1af8051b.js" crossorigin="anonymous"></script>
+
+
+
+    <title>Antony's Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="main-container corners">
+
+            <div class="icons">
+                <a href="mailto:aadivmod@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/Antony100" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/antony100/" target="_blank"><i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+
+            <div class="col-3 vl">
+                <div class="row justify-content-center mb-2">
+                    <div class="profile-pic">
+                        <img src="images/profile.jpeg" alt="profile pic">
+                    </div>
+                </div>
+
+                <div id="nameHeadline" class="txt-center">
+                    <h3>Antony Angeli</h3>
+                </div>
+
+                <div id="headline" class="txt-center mb-4">
+                    <p>Software Developer<br>Founder of Think-Philosophy Group<br> Championing Reason in Tech and
+                        Thought
+                    </p>
+                </div>
+                <div id="about" class="row">
+                    <a id="aboutLink" href="#" class="menu-links">About</a>
+                </div>
+                <div id="projects" class="row">
+                    <a id="projectsLink" href="#" class="menu-links">Projects</a>
+                </div>
+            </div>
+
+            <div class="col-9">
+
+                <div id="displayArea" class="row">
+
+                    <!-- projects carousel -->
+                    <div id="carouselExample" class="carousel slide" data-bs-theme="dark">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <!-- Philosophy -->
+                                <div class="row project-listing hvr-fade">
+                                    <div class="col-3">
+                                        <img class="project-img" src="images/philo-site.png" alt="Philosophy-site"
+                                            onclick="displayFullImage('images/philo-site.png')">
+                                    </div>
+                                    <div class="col-8">
+                                        <a href="https://github.com/Antony100/Philosophy-website" class="project-links"
+                                            target="_blank">
+                                            <h3 class="hvr-underline-from-center">Think-Philosophy Group Website</h3>
+                                        </a>
+                                        <p>A resource for the philosophy group that I run. Posts are added according
+                                            to
+                                            the topic discussed for each session. Admin page is used for CRUD
+                                            operations,
+                                            About and FAQ page also included. visit the
+                                            site <a target="_blank" rel="noopener noreferrer"
+                                                href="https://www.think-philosophy.group/">here.</a><br><br></p>
+                                        <div class=" tech-icons">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+                                                title="Python" />
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
+                                                title="Django Web Framework" />
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg"
+                                                title="PostgreSQL Database" />
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg"
+                                                title="Bootstrap Front-end Framework" />
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                                                title="HTML5" />
+                                            <img id="railwayIcon"
+                                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/railway/railway-original.svg"
+                                                title="Railway Cloud Platform" />
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="row-divider"></div>
+
+                                <!-- recipe book -->
+                                <div class="row project-listing hvr-fade">
+                                    <div class="col-3">
+                                        <img class="project-img" src="images/recipe-book-js.png" alt="Recipe Book"
+                                            onclick="displayFullImage('images/recipe-book-js.png')">
+                                    </div>
+                                    <div class="col-8">
+                                        <a href="https://github.com/Antony100/Recipe-Book" class="project-links"
+                                            target="_blank">
+                                            <h3 class="hvr-underline-from-center">Your Personal Recipe Book</h3>
+                                        </a>
+                                        <p>Keep
+                                            track of your personal recipes. Create, update, view and delete recipes
+                                            and randomly
+                                            select for when you can’t decide what to cook. The recipe view allows you to
+                                            strikethrough
+                                            ingredients and instructions for when you’re shopping or following
+                                            step-by-step.</p>
+                                        <div class="tech-icons">
+
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                                                title="Javascript" />
+
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                                                title="HTML5" />
+
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                                                title="CSS3" />
+
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materializecss/materializecss-original.svg"
+                                                title="MaterializeCSS Front-end Framework" />
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <!-- draft dashboard -->
+                                <div class="row project-listing hvr-fade">
+                                    <div class="col-3">
+                                        <img class="project-img" src="images/draft-dashboard.png"
+                                            alt="draft-league-dashboard"
+                                            onclick="displayFullImage('images/draft-dashboard.png')">
+                                    </div>
+                                    <div class="col-8">
+                                        <a href="https://github.com/Antony100/Fantasy-draft-dashboard"
+                                            class="project-links" target="_blank">
+                                            <h3 class="hvr-underline-from-center">Fantasy League Draft Dashboard</h3>
+                                        </a>
+                                        <p>A dashboard that presents statistics from your personal league, that takes
+                                            part in
+                                            the Premier League's Fantasy Draft. Statistics include, average score,
+                                            average winning score
+                                            and hypotheical head to head score. some stats are visualised with graphs.
+                                        </p>
+
+                                        <div class="tech-icons">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+                                                title="Python" />
+
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
+                                                title="Flask web framework" />
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg"
+                                                title="Bootstrap" />
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                                                title="HTML5" />
+
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg"
+                                                title="Matplotlib" />
+
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/heroku/heroku-original.svg"
+                                                title="Heroku Cloud Platform" />
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row-divider"></div>
+
+                                <!-- tts gui -->
+                                <div class="row project-listing hvr-fade">
+                                    <div class="col-3">
+                                        <img class="project-img" src="images/tts-gui.png" alt="Text-to-Speech"
+                                            onclick="displayFullImage('images/tts-gui.png')">
+                                    </div>
+                                    <div class="col-8">
+                                        <a href="https://github.com/Antony100/text-to-speech-gui" target="_blank"
+                                            class="project-links">
+                                            <h3 class="hvr-underline-from-center">Text to Speech Converter</h3>
+                                        </a>
+                                        <p>Using Python libraries (pyttsx3 and PySimpleGui), the app allows you to enter
+                                            text to be converted
+                                            to speech and exported as an mp3 file. File name and location are user
+                                            specified and the speech rate
+                                            can be adjusted via given presets.
+                                        </p>
+                                        <div class="tech-icons">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+                                                title="Python" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row-controls">
+                            <button id="carouselBtn" class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                        </div>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- About section -->
+                    <div id="aboutSection">
+                        <h2>About</h2>
+                        <hr>
+                        <p> Hello! I'm a dedicated developer proficient in <strong>Python</strong>, well-versed with
+                            <strong>Django, HTML, CSS</strong>, worked with databases such as
+                            <strong>PostgreSQL</strong>, improving on
+                            <strong>Javascript</strong> (as well as other technologies) and committed to <strong>ongoing
+                                learning and growth.</strong>
+                            <br><br>
+
+                            My professional journey has consisted mostly in local Government services, but a
+                            recommendation from a friend to consider programming has now evolved into a career path I
+                            wholeheartedly pursue. <strong>My focus is to continue learning and demonstrate that I can
+                                build
+                                applications to a professional standard.</strong> <br><br>
+
+                            In my spare time, <strong>I manage and facilitate a philosophy group that runs every
+                                fortnight.</strong>
+                            Discussions ranging from “what is knowledge?” to “do you even exist?” are all covered in a
+                            beginner-friendly way, making it a group that welcomes all! For more information, visit the
+                            site <a target="_blank" rel="noopener noreferrer"
+                                href="https://www.think-philosophy.group/">here.</a><br><br>
+
+                            If you’d like to contact me, please feel free to send me an email:
+                            <strong>aadivmod@gmail.com</strong> (or
+                            click on the mail icon above).
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- image modal -->
+        <div class="modal fade" id="fullImageModal" tabindex="-1" aria-labelledby="fullImageModal" keyboard="true"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" id="fullImage">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
